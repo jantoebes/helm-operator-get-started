@@ -14,7 +14,7 @@ spec:
     path: charts/podinfo
     ref: master
   values:
-    image: toebez/podinfo:dev-5f13e76f
+    image: toebez/podinfo:dev-9689bbc7
     replicaCount: 1
     hpa:
       enabled: false
