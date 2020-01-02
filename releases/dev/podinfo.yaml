@@ -12,7 +12,7 @@ spec:
   chart:
     git: git@github.com:jantoebes/helm-operator-get-started
     path: charts/podinfo
-    ref: master
+    ref: cee80aa
   values:
     image: toebez/podinfo:dev-9689bbc7
     replicaCount: 1
